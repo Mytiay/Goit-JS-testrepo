@@ -22,9 +22,21 @@ console.log(type)
 
 // const constanta = prompt('add number');
 // console.log(constanta);
-const pricePerDroid = 800;
-let orderedQuantity = 6;
-const deliveryFee = 50;
-let totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
-const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
-console.log(message)
+// const pricePerDroid = 800;
+// let orderedQuantity = 6;
+// const deliveryFee = 50;
+// let totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
+// const message = `You ordered droids worth ${totalPrice} credits.
+// Delivery (${deliveryFee} credits) is included in total price.`;
+// console.log(message)
+
+let cost;
+const subscription = "free";
+
+if (subscription === "pro") {
+  cost = 100;
+} else {
+  cost = 0;
+}
+
+console.log(cost);
