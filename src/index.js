@@ -3,23 +3,18 @@
 // const age = 10;
 // const userName = 'Oleg';
 // const message = 'hello world'
-const isOpen = true;
+// const isOpen = true;
 // const shouldConfirm = false;
 // оператор typeoff> для проверки типа переменной!
-
-const type = typeof isOpen;
-
-console.log(type)
-
+// const type = typeof isOpen;
+// console.log(type)
 // alert блокирует интерпритацию
 // console.log('before');
 // alert('did you know?');
 // console.log('after');
-
 // window.confirm(), window.prompt()
 // const shouldRenew = confirm('take again?')
 // console.log(shouldRenew)
-
 // const constanta = prompt('add number');
 // console.log(constanta);
 // const pricePerDroid = 800;
@@ -29,14 +24,14 @@ console.log(type)
 // const message = `You ordered droids worth ${totalPrice} credits.
 // Delivery (${deliveryFee} credits) is included in total price.`;
 // console.log(message)
+// let cost;
+// const subscription = "free";
+// if (subscription === "pro") {
+//   cost = 100;
+// } else {
+//   cost = 0;
+// }
+// console.log(cost);
 
-let cost;
-const subscription = "free";
-
-if (subscription === "pro") {
-  cost = 100;
-} else {
-  cost = 0;
-}
-
-console.log(cost);
+const age = 5;
+console.log(age < 10 || age > 30); // true || false -> true
