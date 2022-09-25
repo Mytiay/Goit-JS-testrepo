@@ -33,5 +33,12 @@
 // }
 // console.log(cost);
 
-const age = 5;
-console.log(age < 10 || age > 30); // true || false -> true
+const age = 17;
+let message = 'tell me you age';
+if (age >= 18) {
+    message = 'you are adult';
+} else {
+    message = 'you is too young';
+    
+}
+console.log(message)
