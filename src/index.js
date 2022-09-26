@@ -1,44 +1,24 @@
-// переменные
-// let x = 5;
-// const age = 10;
-// const userName = 'Oleg';
-// const message = 'hello world'
-// const isOpen = true;
-// const shouldConfirm = false;
-// оператор typeoff> для проверки типа переменной!
-// const type = typeof isOpen;
-// console.log(type)
-// alert блокирует интерпритацию
-// console.log('before');
-// alert('did you know?');
-// console.log('after');
-// window.confirm(), window.prompt()
-// const shouldRenew = confirm('take again?')
-// console.log(shouldRenew)
-// const constanta = prompt('add number');
-// console.log(constanta);
-// const pricePerDroid = 800;
-// let orderedQuantity = 6;
-// const deliveryFee = 50;
-// let totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
-// const message = `You ordered droids worth ${totalPrice} credits.
-// Delivery (${deliveryFee} credits) is included in total price.`;
-// console.log(message)
-// let cost;
-// const subscription = "free";
-// if (subscription === "pro") {
-//   cost = 100;
-// } else {
-//   cost = 0;
-// }
-// console.log(cost);
+const totalSpent = 2000;
+let payment = 100;
+let discount = 0;
 
-const age = 17;
-let message = 'tell me you age';
-if (age >= 18) {
-    message = 'you are adult';
-} else {
-    message = 'you is too young';
-    
+if (totalSpent < 100) {
+    console.log('not a partner')
 }
-console.log(message)
+else if (totalSpent >= 100 && totalSpent <= 1000) {
+    console.log('бронзовый партнер, скидка 2%')
+    discount = 0.02;
+}
+else if (totalSpent >= 1000 && totalSpent <= 5000){
+    console.log('серебряный партнер, скидка 5%')
+    discount = 0.05;
+}
+else if (totalSpent > 5000){
+    console.log('gold партнер, скидка 10%')
+    discount = 0.1;
+}
+else {
+    console.log('not a partner, discount 0%')
+}
+
+console.log(`оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`)
