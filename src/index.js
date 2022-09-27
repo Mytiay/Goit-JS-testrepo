@@ -22,12 +22,13 @@
 // }
 // console.log(`оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`)
 
+// --------------for of-----------------------//
 
+// const carts = [44, 44, 24, 45, 100, 202];
+// let total = 0;
 
-const carts = [44, 44, 24, 45, 100, 202];
-let total = 0;
+// for (const cart of carts) {
+//     total = total + cart;
+// }
+// console.log('total ', total);
 
-for (const cart of carts) {
-    total = total + cart;
-} 
-console.log('total ', total);
