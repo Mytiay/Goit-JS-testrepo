@@ -12,6 +12,6 @@
 
 // ---------------------split------------------------//
 
-const fruits = 'mango'
+// const fruits = 'mango'
 
-console.log(fruits.split(''));
+// console.log(fruits.split(''));
