@@ -15,7 +15,7 @@
 // console.log(filterArray([1, 2, 3, 4, 5], 3));
 
 //-----------------------------function----------------------//
-function multiply(x, y, z) {
-  console.log(`Результат умножения равен ${x * y * z}`);
-}
-multiply(2, 3, 5);
+// function multiply(x, y, z) {
+//   console.log(`Результат умножения равен ${x * y * z}`);
+// }
+// multiply(2, 3, 5);
