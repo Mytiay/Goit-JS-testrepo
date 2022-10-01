@@ -1,8 +1,24 @@
-const book = {
-  title: "The Last Kingdom",
-  author: "Bernard Cornwell",
-  genres: ["historical prose", "adventure"],
-  isPublic: true,
-  rating: 8.38,
+const apartment = {
+  imgUrl: "https://via.placeholder.com/640x480",
+  descr: "Spacious apartment in the city center",
+  rating: 4.7,
+  price: 5000,
+  tags: ["premium", "promoted", "top", "trusted"],
+  owner: {
+    name: "Henry Sibola",
+    phone: "982-126-1588",
+    email: "henry.carter@aptmail.com",
+  },
+  location: {
+    country: 'UK',
+    city: 'London',
+  },
 };
-console.log(book)
+
+// Change code below this line
+apartment.area = 60;
+apartment.rooms = 3;
+apartment.location.country = 'Jamaica';
+apartment.location.city = 'Kingston';
+
+console.log(apartment);
