@@ -12,7 +12,7 @@
 // console.log(emailInputName)
 
 function findMatches(...args) {
-  const matches = []; // Don't change this line
+  const matches = []; 
 
   for (const arg of args) {
 
@@ -21,7 +21,7 @@ function findMatches(...args) {
   }
   matches.push(arg);
 }
-  // Change code above this line
+  
   return matches;
 }
 console.log(findMatches([1, 2, 3], 4 , 3, 1));
