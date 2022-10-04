@@ -11,10 +11,17 @@
 // };
 // console.log(emailInputName)
 
-function multiply(...args) {
-  console.log(args); // массив всех аргументов
-}
+function findMatches(...args) {
+  const matches = []; // Don't change this line
 
-multiply(1, 2);
-multiply(1, 2, 3);
-multiply(1, 2, 3, 4);
+  for (const arg of args) {
+
+  if (arg[0] === args) {
+    
+  }
+  matches.push(arg);
+}
+  // Change code above this line
+  return matches;
+}
+console.log(findMatches([1, 2, 3], 4 , 3, 1));
