@@ -11,17 +11,17 @@
 // };
 // console.log(emailInputName)
 
-function findMatches(...args) {
-  const matches = []; 
+// function findMatches(...args) {
+//   const matches = []; 
 
-  for (const arg of args) {
+//   for (const arg of args) {
 
-  if (arg[0] === args) {
+//   if (arg[0] === args) {
     
-  }
-  matches.push(arg);
-}
+//   }
+//   matches.push(arg);
+// }
   
-  return matches;
-}
-console.log(findMatches([1, 2, 3], 4 , 3, 1));
+//   return matches;
+// }
+// console.log(findMatches([1, 2, 3], 4 , 3, 1));
