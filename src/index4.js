@@ -1,48 +1,41 @@
-// const apartment = {
-//   imgUrl: "https://via.placeholder.com/640x480",
-//   descr: "Spacious apartment in the city center",
-//   rating: 4.7,
-//   price: 5000,
-//   tags: ["premium", "promoted", "top", "trusted"],
-//   owner: {
-//     name: "Henry Sibola",
-//     phone: "982-126-1588",
-//     email: "henry.carter@aptmail.com",
-//   },
-//   location: {
-//     country: 'UK',
-//     city: 'London',
-//   },
-// };
+// 1. Объявление функции multiply
+function multiply() {
+  // Тело функции
+  console.log('Это лог при вызове функции multiply');
+}
 
-// // Change code below this line
-// apartment.area = 60;
-// apartment.rooms = 3;
-// apartment.location.country = 'Jamaica';
-// apartment.location.city = 'Kingston';
-
-// console.log(apartment);
+// 2. Вызовы функции multiply
+multiply(); // 'Это лог при вызове функции multiply'
+multiply(); // 'Это лог при вызове функции multiply'
+multiply(); // 'Это лог при вызове функции multiply'
 
 
-//----------N2----------//
+// 1. Объявление параметров x, y, z
+function multiply(x, y, z) {
+  console.log(`Результат умножения равен ${x * y * z}`);
+}
 
-// const bookShelf = {
-//   books: ["The Last Kingdom"],
-//   getBooks() {
-//     return this.books;
-//   },
-//   addBook(bookName) {
-//     this.books.push(bookName);
-//   },
-//   removeBook(bookName) {
-//     const bookIndex = this.books.indexOf(bookName);
-//     this.books.splice(bookIndex, 1);
-//   },
-// };
+// 2. Передача аргументов
+multiply(2, 3, 5); // Результат умножения равен 30
+multiply(4, 8, 12); // Результат умножения равен 384
+multiply(17, 6, 25); // Результат умножения равен 2550
 
-// console.log(bookShelf.getBooks()); // ["The Last Kingdom"]
-// bookShelf.addBook("The Mist");
-// bookShelf.addBook("Dream Guardian");
-// console.log(bookShelf.getBooks()); // ['The Last Kingdom', 'The Mist', 'Dream Guardian']
-// bookShelf.removeBook("The Mist");
-// console.log(bookShelf.getBooks()); // ['The Last Kingdom', 'Dream Guardian']
+
+function multiply(x, y, z) {
+  console.log("Код до return выполняется как обычно");
+
+  // Возвращаем результат выражения умножения
+  return x * y * z;
+
+  console.log("Этот лог никогда не выполнится, он стоит после return");
+}
+
+// Результат работы функции можно сохранить в переменную
+let result = multiply(2, 3, 5);
+console.log(result); // 30
+
+result = multiply(4, 8, 12);
+console.log(result); // 384
+
+result = multiply(17, 6, 25);
+console.log(result); // 2550
